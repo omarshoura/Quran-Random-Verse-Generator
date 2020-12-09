@@ -1,0 +1,66 @@
+html{
+	width: 100%;
+  height: 100%;
+  color:rgb(255, 255, 255);
+	background: #1192d3 url(https://images.unsplash.com/photo-1593773331124-4ff9f002f833?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80) 
+    
+  
+}
+
+
+h1{
+  text-align : center;
+  font-family: 'Dosis', sans-serif;
+  font-size : 250%;
+}
+
+.container{
+  text-align : center;
+  border-radius : 3px;
+  margin : auto auto auto auto;
+  width : 550px;
+  display : table;
+  position: relative;
+}
+
+.container{
+  /* position: absolute; */
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0);
+}
+.quoteBox{
+  border-radius : 3px;
+  position : relative;
+  margin : 8px auto auto auto;
+  padding : 40px 50px;
+  display : table;
+  
+}
+
+#arabicVerseText{
+  font-size: 200%;
+}
+
+#content{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+input[type=button]{
+  cursor : pointer;
+}
+
+.condensedSanSerif{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.largeSize{
+  font-size : 200%;
+}
+
+.mediumSize{
+  font-size : 150%;
+}
+
+.smallSize{
+  font-size: 130%;
+}
