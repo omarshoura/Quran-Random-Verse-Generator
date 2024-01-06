@@ -16,8 +16,8 @@ $(document).ready(function(){
 
 function getQuote() {
   var ayah = Math.floor(Math.random() * 6236) + 1 
-  var url = "https://api.alquran.cloud/ayah/"+ayah+"/en.asad";
-  var urlArabic = "https://api.alquran.cloud/ayah/"+ayah;
+  var url = "https://api.alquran.cloud/v1/ayah/"+ayah+"/en.asad";
+  var urlArabic = "https://api.alquran.cloud/v1/ayah/"+ayah;
   arText;
   enText;
   surah;
